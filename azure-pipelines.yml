@@ -1,13 +1,6 @@
 trigger:
 - main
 
-resources:
-- repo: self
-
-variables:
-  imageRepo: sampleapp
-  tag: '$(Build.BuildId)'
-
 stages:
 - stage: Build
   displayName: Build image
